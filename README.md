@@ -1,24 +1,21 @@
-# QuickBlog - Full Stack Blogging Platform
+# IMDB Movie Sentiment Analysis
 
-QuickBlog is a full-stack web application designed for easy content creation and sharing. 
-Built using the MERN stack, it offers a secure and user-friendly experience for bloggers and readers.
+A Natural Language Processing (NLP) project that analyzes IMDB movie reviews and predicts the sentiment as either positive or negative. The project uses data preprocessing, feature extraction, and machine learning models to classify text data.
 
 ## Features
-- User authentication (Login/Signup) with JWT
-- Create, edit, and delete blog posts
-- Rich-text editor for formatting content
-- Mobile-friendly responsive UI
-- MongoDB for scalable data storage
-- RESTful API built with Express.js & Node.js
+- Preprocessing of raw text data (stopword removal, stemming/lemmatization)
+- TF-IDF and Bag-of-Words vectorization
+- Training and evaluation of ML models (Logistic Regression, Naive Bayes, etc.)
+- Accuracy, precision, recall, and F1-score metrics
+- Example predictions on custom input sentences
 
 ## Tech Stack
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JSON Web Tokens (JWT)
+- **Language:** Python
+- **Libraries:** pandas, numpy, scikit-learn, nltk
+- **Dataset:** IMDB movie reviews dataset
 
-## Installation
+## Usage
 1. Clone the repository
-2. Install dependencies for both client & server
-3. Configure `.env` file
-4. Run frontend and backend servers
+2. Install dependencies
+3. Run the training script
+4. Test with your own movie reviews
